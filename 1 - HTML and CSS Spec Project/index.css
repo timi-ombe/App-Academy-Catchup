@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10px 10px;
+}
+
+/* Header */
+#header {
+    display: flex;
+    flex-direction:column;
+}
+
+#header-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header-top div {
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+#header-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    list-style-type: none;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+#header-bottom li {
+    cursor: pointer;
+}
+
+
+/* Title & Information */
+#title-and-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    border: 3px solid black;
+}
+
+#title h1 {
+    font-weight: 400;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#info div img {
+    width: 60px;
+}
+
+#info div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#info div div {
+    border: 2px solid black;
+}
+
+/* HERO */
+#hero {
+    height: 200px;
+    width: 100%;
+    background-color: transparent;
+    border: 3px solid black;
+}
+
+/* Final Section */
+#fsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fsection div h2 {
+    font-weight: 400;
+}
+
+#fsection1 {
+    border-top: 1px solid black; 
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#fsection2 {
+    border-right: 1px solid black;
+    border-top: 1px solid black; 
+    border-bottom: 1px solid black;
+}
+
+#fsection div ul {
+  margin: 0;
+  color: blue;
+}
+#fsection div ul {
+  list-style-type: none;
+}
+
+#fsection div ul > li {
+  text-indent: -5px;
+}
+ #fsection div ul > li:before {
+  content: "-";
+  text-indent: -5px;
+  color: black;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer img {
+    width: 150px;
+    border: 3px solid black;
+    height: auto;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+}
+
+#links li a {
+    text-decoration: none;
+    color: gray;
+}
